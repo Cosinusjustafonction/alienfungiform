@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
+
 import time
 
 app = Flask(__name__)
-CORS(app)
+
 
 # Load existing email data from the file
 email_list = []
